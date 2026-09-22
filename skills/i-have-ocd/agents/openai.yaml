@@ -1,0 +1,7 @@
+interface:
+  display_name: "I Have OCD"
+  short_description: "Certainty-shaped output. Nothing left to check."
+  default_prompt: "Use $i-have-ocd to make this response exact, verified, and free of loose ends."
+
+policy:
+  allow_implicit_invocation: true

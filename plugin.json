@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "i-have-ocd",
+  "description": "Shape Antigravity output for a reader who cannot leave a loose end: exact changes, verified or explicitly not verified, no reassurance, every unknown in one list."
+}

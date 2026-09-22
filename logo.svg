@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="body" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#7FF0E1"/><stop offset="0.42" stop-color="#2DD4BF"/><stop offset="1" stop-color="#0B8276"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="0.62">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#0B5F58" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#drop)">
+    <path d="M 158 139 C 160 150 156 160 148 165 C 143 168 137 165 138 159 C 140 150 146 142 152 137 Z" fill="#0B8276"/>
+    <path d="M 150 133 C 163 145 182 146 189 136 C 195 127 190 115 180 113 C 168 111 156 120 150 133 Z" fill="#0E9C8D"/>
+    <g fill="none" stroke="#0B6F66" stroke-opacity="0.55" stroke-width="3.5" stroke-linecap="round">
+      <path d="M 156 122 C 166 124 176 126 187 124"/>
+      <path d="M 154 130 C 165 133 176 135 188 132"/>
+    </g>
+    <path d="M 72 122 C 54 114 52 92 65 82 C 58 64 71 48 90 50 C 98 37 118 33 129 43 C 143 33 164 38 171 53 C 190 56 199 72 192 88 C 201 99 196 115 183 120 C 181 132 168 139 156 136 C 147 145 132 146 124 138 C 113 145 98 144 90 136 C 80 137 72 132 72 122 Z" fill="url(#body)"/>
+    <path d="M 72 122 C 54 114 52 92 65 82 C 58 64 71 48 90 50 C 98 37 118 33 129 43 C 143 33 164 38 171 53 C 190 56 199 72 192 88 C 201 99 196 115 183 120 C 181 132 168 139 156 136 C 147 145 132 146 124 138 C 113 145 98 144 90 136 C 80 137 72 132 72 122 Z" fill="url(#sheen)"/>
+  </g>
+  <!-- central fissure + cortical folds following the contour -->
+  <g fill="none" stroke="#0B6F66" stroke-opacity="0.38" stroke-linecap="round">
+    <path d="M 128 43 C 126 66 132 86 126 104 C 122 118 128 130 124 138" stroke-width="6"/>
+    <path d="M 88 58 C 100 66 96 80 108 88" stroke-width="5"/>
+    <path d="M 72 96 C 86 92 92 104 104 102" stroke-width="5"/>
+    <path d="M 158 56 C 148 68 158 80 148 92" stroke-width="5"/>
+    <path d="M 186 92 C 174 90 168 102 156 100" stroke-width="5"/>
+  </g>
+  <!-- the loop, closed -->
+  <g>
+    <path d="M 136.5 67.1 A 27 27 0 1 1 115.5 67.1" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="butt"/>
+    <path d="M 130.1 60.9 L 111.5 57.8 L 119.4 76.5 Z" fill="#FFFFFF"/>
+  </g>
+  <text x="128" y="233" text-anchor="middle"
+        font-family="Avenir Next, Avenir, Trebuchet MS, Helvetica Neue, Arial, sans-serif"
+        font-size="35" font-weight="700" letter-spacing="-0.5" fill="#0F766E">i-have-ocd</text>
+</svg>

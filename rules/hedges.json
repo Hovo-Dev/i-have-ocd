@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "description": "Machine-readable violation phrases for the i-have-ocd rules, per language. Consumed by the ocd-check skill and by any linter or hook that wants to flag hedging in agent output. Matching is case-insensitive substring.",
+  "repository": "https://github.com/Hovo-Dev/i-have-ocd",
+  "license": "MIT",
+  "languages": [
+    "en",
+    "zh-CN",
+    "es",
+    "pt-BR",
+    "ja",
+    "ko",
+    "ru",
+    "fr",
+    "de",
+    "tr",
+    "et",
+    "sr",
+    "ka",
+    "hy",
+    "ar"
+  ],
+  "categories": {
+    "unverified_claim": {
+      "rule": 2,
+      "description": "A claim presented as probable instead of verified. Replace with the command run and its output, or an explicit 'not verified'.",
+      "phrases": {
+        "en": [
+          "should work",
+          "should fix",
+          "ought to work",
+          "probably fine",
+          "probably works",
+          "I believe this",
+          "this will likely",
+          "seems to work",
+          "might just work"
+        ],
+        "zh-CN": [
+          "应该可以",
+          "应该能",
+          "应该没问题",
+          "大概没事",
+          "看起来没问题"
+        ],
+        "es": [
+          "debería funcionar",
+          "debería arreglar",
+          "probablemente esté bien",
+          "seguramente funcione",
+          "creo que funciona",
+          "parece funcionar"
+        ],
+        "pt-BR": [
+          "deve funcionar",
+          "deve resolver",
+          "provavelmente está",
+          "acho que funciona",
+          "parece funcionar"
+        ],
+        "ja": [
+          "動くはずです",
+          "直るはずです",
+          "おそらく問題ありません",
+          "たぶん大丈夫",
+          "動いているようです"
+        ],
+        "ko": [
+          "될 겁니다",
+          "해결될 겁니다",
+          "아마 괜찮",
+          "괜찮을 것 같",
+          "작동하는 것 같"
+        ],
+        "ru": [
+          "должно работать",
+          "должно исправить",
+          "наверное, всё в порядке",
+          "думаю, это",
+          "вроде работает"
+        ],
+        "fr": [
+          "ça devrait marcher",
+          "devrait fonctionner",
+          "probablement bon",
+          "je pense que ça",
+          "semble fonctionner"
+        ],
+        "de": [
+          "sollte funktionieren",
+          "sollte beheben",
+          "wahrscheinlich in Ordnung",
+          "ich glaube, das",
+          "scheint zu funktionieren"
+        ],
+        "tr": [
+          "çalışması lazım",
+          "çalışmalı",
+          "düzeltmesi lazım",
+          "muhtemelen sorun yok",
+          "sanırım çalışıyor",
+          "çalışıyor gibi"
+        ],
+        "et": [
+          "peaks töötama",
+          "peaks parandama",
+          "tõenäoliselt on korras",
+          "arvan, et see",
+          "tundub töötavat"
+        ],
+        "sr": [
+          "требало би да ради",
+          "требало би да реши",
+          "вероватно је у реду",
+          "мислим да",
+          "изгледа да ради"
+        ],
+        "ka": [
+          "უნდა იმუშაოს",
+          "უნდა გამოასწოროს",
+          "ალბათ რიგზეა",
+          "მგონი მუშაობს",
+          "როგორც ჩანს მუშაობს"
+        ],
+        "hy": [
+          "հավանաբար կաշխատի",
+          "պետք է աշխատի",
+          "կարծում եմ՝ լավ է",
+          "թվում է՝ աշխատում է"
+        ],
+        "ar": [
+          "يُفترض أن يعمل",
+          "من المفترض أن",
+          "على الأرجح",
+          "أعتقد أنه",
+          "يبدو أنه يعمل"
+        ]
+      }
+    },
+    "reassurance": {
+      "rule": 7,
+      "description": "Comfort offered in place of evidence. Replace with the command and the output it printed.",
+      "phrases": {
+        "en": [
+          "don't worry",
+          "no worries",
+          "it's fine",
+          "all good",
+          "you're all set",
+          "everything looks good",
+          "nothing to worry about",
+          "rest assured"
+        ],
+        "zh-CN": [
+          "别担心",
+          "放心",
+          "没问题",
+          "一切正常",
+          "都挺好的"
+        ],
+        "es": [
+          "no te preocupes",
+          "todo bien",
+          "está todo listo",
+          "sin problema",
+          "tranquilo",
+          "todo parece correcto"
+        ],
+        "pt-BR": [
+          "não se preocupe",
+          "tudo certo",
+          "tudo bem",
+          "está tudo pronto",
+          "sem problemas"
+        ],
+        "ja": [
+          "心配いりません",
+          "ご安心ください",
+          "問題ありません",
+          "大丈夫です",
+          "すべて順調です"
+        ],
+        "ko": [
+          "걱정하지 마",
+          "안심하셔도",
+          "문제없습니다",
+          "다 괜찮습니다",
+          "모두 정상"
+        ],
+        "ru": [
+          "не волнуйтесь",
+          "не переживай",
+          "всё хорошо",
+          "всё в порядке",
+          "никаких проблем"
+        ],
+        "fr": [
+          "ne t'inquiète pas",
+          "ne vous inquiétez pas",
+          "tout va bien",
+          "c'est bon",
+          "aucun souci"
+        ],
+        "de": [
+          "keine Sorge",
+          "alles gut",
+          "alles in Ordnung",
+          "kein Problem",
+          "sieht alles gut aus"
+        ],
+        "tr": [
+          "merak etme",
+          "endişelenme",
+          "her şey yolunda",
+          "sorun yok",
+          "hepsi tamam"
+        ],
+        "et": [
+          "ära muretse",
+          "kõik on korras",
+          "pole probleemi",
+          "võid rahulik olla"
+        ],
+        "sr": [
+          "не брини",
+          "све је у реду",
+          "нема проблема",
+          "буди спокојан"
+        ],
+        "ka": [
+          "არ ინერვიულო",
+          "ყველაფერი რიგზეა",
+          "პრობლემა არ არის",
+          "დამშვიდდი"
+        ],
+        "hy": [
+          "մի անհանգստացիր",
+          "ամեն ինչ կարգին է",
+          "խնդիր չկա",
+          "հանգիստ եղիր"
+        ],
+        "ar": [
+          "لا تقلق",
+          "كل شيء بخير",
+          "لا مشكلة",
+          "اطمئن",
+          "كل شيء يبدو جيدًا"
+        ]
+      }
+    },
+    "filler_affirmation": {
+      "rule": 9,
+      "description": "Praise of the reader carrying no information. Delete it; the fix speaks for itself.",
+      "phrases": {
+        "en": [
+          "great question",
+          "you're absolutely right",
+          "good catch",
+          "excellent point",
+          "perfect!",
+          "nice catch",
+          "that's a great"
+        ],
+        "zh-CN": [
+          "好问题",
+          "你说得完全对",
+          "问得好",
+          "非常好的观点",
+          "太棒了"
+        ],
+        "es": [
+          "gran pregunta",
+          "tienes toda la razón",
+          "buena observación",
+          "excelente punto",
+          "¡perfecto!"
+        ],
+        "pt-BR": [
+          "ótima pergunta",
+          "você está certíssimo",
+          "boa observação",
+          "excelente ponto",
+          "perfeito!"
+        ],
+        "ja": [
+          "良い質問です",
+          "おっしゃる通りです",
+          "鋭いご指摘",
+          "素晴らしい点",
+          "完璧です"
+        ],
+        "ko": [
+          "좋은 질문",
+          "정확히 맞습니다",
+          "잘 짚으셨",
+          "훌륭한 지적",
+          "완벽합니다"
+        ],
+        "ru": [
+          "отличный вопрос",
+          "вы абсолютно правы",
+          "хорошее замечание",
+          "отличное замечание",
+          "отлично!"
+        ],
+        "fr": [
+          "excellente question",
+          "vous avez tout à fait raison",
+          "bien vu",
+          "excellent point",
+          "parfait !"
+        ],
+        "de": [
+          "gute Frage",
+          "du hast völlig recht",
+          "guter Fang",
+          "ausgezeichneter Punkt",
+          "perfekt!"
+        ],
+        "tr": [
+          "harika soru",
+          "kesinlikle haklısın",
+          "güzel yakaladın",
+          "mükemmel bir nokta",
+          "mükemmel!"
+        ],
+        "et": [
+          "suurepärane küsimus",
+          "sul on täiesti õigus",
+          "hea tähelepanek",
+          "suurepärane mõte"
+        ],
+        "sr": [
+          "одлично питање",
+          "потпуно си у праву",
+          "добро запажање",
+          "одлична поента"
+        ],
+        "ka": [
+          "შესანიშნავი კითხვა",
+          "სრულიად მართალი ხარ",
+          "კარგი შენიშვნა",
+          "შესანიშნავი დაკვირვება"
+        ],
+        "hy": [
+          "հիանալի հարց",
+          "դու լրիվ իրավացի ես",
+          "լավ նկատեցիր",
+          "հրաշալի դիտարկում"
+        ],
+        "ar": [
+          "سؤال ممتاز",
+          "أنت محق تمامًا",
+          "ملاحظة جيدة",
+          "نقطة ممتازة",
+          "رائع!"
+        ]
+      }
+    },
+    "partial_state": {
+      "rule": 3,
+      "description": "A completion state that is neither done nor not done. Pick one and name what blocks the rest.",
+      "phrases": {
+        "en": [
+          "mostly done",
+          "largely complete",
+          "essentially done",
+          "basically works",
+          "more or less",
+          "pretty much done",
+          "almost there"
+        ],
+        "zh-CN": [
+          "差不多完成",
+          "基本完成",
+          "大部分已完成",
+          "或多或少",
+          "基本可以用"
+        ],
+        "es": [
+          "casi listo",
+          "prácticamente terminado",
+          "en su mayoría hecho",
+          "más o menos",
+          "básicamente funciona"
+        ],
+        "pt-BR": [
+          "quase pronto",
+          "praticamente pronto",
+          "na maior parte",
+          "mais ou menos",
+          "basicamente funciona"
+        ],
+        "ja": [
+          "ほぼ完了",
+          "大方完了",
+          "基本的には動きます",
+          "おおむね",
+          "だいたい終わって"
+        ],
+        "ko": [
+          "거의 다 됐",
+          "대부분 완료",
+          "기본적으로 작동",
+          "어느 정도",
+          "대체로 완료"
+        ],
+        "ru": [
+          "почти готово",
+          "в основном готово",
+          "практически завершено",
+          "более или менее",
+          "в целом работает"
+        ],
+        "fr": [
+          "presque terminé",
+          "pratiquement fini",
+          "en grande partie",
+          "plus ou moins",
+          "fonctionne globalement"
+        ],
+        "de": [
+          "fast fertig",
+          "größtenteils fertig",
+          "im Wesentlichen fertig",
+          "mehr oder weniger",
+          "funktioniert im Grunde"
+        ],
+        "tr": [
+          "neredeyse bitti",
+          "büyük ölçüde tamam",
+          "temelde çalışıyor",
+          "aşağı yukarı",
+          "çoğunlukla bitti"
+        ],
+        "et": [
+          "peaaegu valmis",
+          "suuremas osas valmis",
+          "põhimõtteliselt töötab",
+          "enam-vähem"
+        ],
+        "sr": [
+          "скоро готово",
+          "углавном готово",
+          "у суштини ради",
+          "мање-више"
+        ],
+        "ka": [
+          "თითქმის დასრულებულია",
+          "ძირითადად დასრულებული",
+          "პრინციპში მუშაობს",
+          "მეტ-ნაკლებად"
+        ],
+        "hy": [
+          "գրեթե ավարտված",
+          "հիմնականում ավարտված",
+          "քիչ թե շատ",
+          "սկզբունքորեն աշխատում է"
+        ],
+        "ar": [
+          "شبه منتهٍ",
+          "مكتمل في معظمه",
+          "يعمل أساسًا",
+          "إلى حد ما",
+          "تقريبًا انتهى"
+        ]
+      }
+    }
+  }
+}

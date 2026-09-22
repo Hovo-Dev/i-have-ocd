@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "i-have-ocd",
+  "description": "Certainty-shaped output for Claude Code. Exact changes, nothing unverified, no loose ends.",
+  "owner": {
+    "name": "Hovhannes Baghdasaryan"
+  },
+  "plugins": [
+    {
+      "name": "i-have-ocd",
+      "description": "Precise, verified, bounded output shaping for Claude Code.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

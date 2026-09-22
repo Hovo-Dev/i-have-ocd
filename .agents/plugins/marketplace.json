@@ -1,0 +1,21 @@
+{
+  "name": "i-have-ocd",
+  "interface": {
+    "displayName": "I Have OCD"
+  },
+  "plugins": [
+    {
+      "name": "i-have-ocd",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hovo-Dev/i-have-ocd.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

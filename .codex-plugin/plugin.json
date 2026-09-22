@@ -1,0 +1,40 @@
+{
+  "name": "i-have-ocd",
+  "version": "0.1.0",
+  "description": "Certainty-shaped output for Codex: exact changes, verified or explicitly not verified, no reassurance, every unknown in one list.",
+  "author": {
+    "name": "Hovhannes Baghdasaryan",
+    "url": "https://github.com/Hovo-Dev"
+  },
+  "homepage": "https://github.com/Hovo-Dev/i-have-ocd",
+  "repository": "https://github.com/Hovo-Dev/i-have-ocd",
+  "license": "MIT",
+  "keywords": [
+    "ocd",
+    "output-style",
+    "precision",
+    "verification",
+    "skills",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "I Have OCD",
+    "shortDescription": "Certainty-shaped output. Nothing left to check.",
+    "longDescription": "Shape Codex responses so nothing is left to re-check: state the exact file and lines that changed, never say \"should work\", name what was not touched, and collect every open item in one labelled list that reads \"none\" when it is empty.",
+    "developerName": "Hovhannes Baghdasaryan",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/Hovo-Dev/i-have-ocd",
+    "defaultPrompt": [
+      "Use i-have-ocd for this task.",
+      "Rewrite this answer with exact changes and nothing unverified.",
+      "Check this response for loose ends and unverified claims."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./logo.png",
+    "logo": "./logo.png"
+  }
+}
